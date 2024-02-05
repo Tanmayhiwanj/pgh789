@@ -1,0 +1,75 @@
+body{
+	background:url(https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_1280.png)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-nav-outer{
+	padding:0px;
+	
+	/* box-shadow:0 4px 5px -3px #ececec; */
+	position:relative;
+	background-color: red;
+
+}
+.main-nav{
+	text-align:center;
+	margin:10px 0 0px;
+	padding:0;
+	list-style:none;
+}
+.main-nav li{
+	display:inline;
+	margin:0 1px;
+}
+.main-nav li a{
+	display:inline-block;
+	color:white;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	line-height:20px;
+	margin:17px 32px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.main-nav li a:hover{ 
+	text-decoration:none;
+	color: hsl(191, 84%, 54%);
+}
+
+.small-logo{ 
+	padding: 5px 64px;
+	
+	
+}
+.imgg{
+	max-width: 80px;
+}
+
+.main-section{
+	padding:90px 0 110px;
+}
+.evpg{
+
+	width: 100vw;
+	height: 600px;
+	padding-top: 35px;
+	/* padding-left: 20px;
+	padding-right: 20px; */
+	align-items: center;
+	border: 2px solid red;
+	padding-bottom: 35px;
+	position: relative;
+}
+
+.pvpg{
+
+position: fixed;
+
+
+}
